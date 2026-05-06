@@ -13,7 +13,7 @@
 class Car:
     name = ""
     def model(self):
-        print("tutututu")
+        print("Supra")
 
 class mini(Car):
     def display(self):
@@ -21,6 +21,6 @@ class mini(Car):
 
 
 vehicle = mini()
-vehicle.name = "supra"
+vehicle.name = "toyota"
 vehicle.display()
 vehicle.model()
